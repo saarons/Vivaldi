@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2211D640148DB7F600057E6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2211D63F148DB7F600057E6C /* Cocoa.framework */; };
+		2211D64A148DB7F600057E6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2211D648148DB7F600057E6C /* InfoPlist.strings */; };
+		2211D64C148DB7F600057E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211D64B148DB7F600057E6C /* main.m */; };
+		2211D650148DB7F600057E6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2211D64E148DB7F600057E6C /* Credits.rtf */; };
+		2211D653148DB7F600057E6C /* VivaldiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211D652148DB7F600057E6C /* VivaldiAppDelegate.m */; };
+		2211D656148DB7F700057E6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2211D654148DB7F700057E6C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2211D63B148DB7F600057E6C /* Vivaldi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivaldi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2211D63F148DB7F600057E6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2211D642148DB7F600057E6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2211D643148DB7F600057E6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2211D644148DB7F600057E6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2211D647148DB7F600057E6C /* Vivaldi-Info.plist */ = {isa = PBXFileReference; path = "Vivaldi-Info.plist"; sourceTree = "<group>"; };
+		2211D649148DB7F600057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2211D64B148DB7F600057E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2211D64D148DB7F600057E6C /* Vivaldi-Prefix.pch */ = {isa = PBXFileReference; path = "Vivaldi-Prefix.pch"; sourceTree = "<group>"; };
+		2211D64F148DB7F600057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2211D651148DB7F600057E6C /* VivaldiAppDelegate.h */ = {isa = PBXFileReference; path = VivaldiAppDelegate.h; sourceTree = "<group>"; };
+		2211D652148DB7F600057E6C /* VivaldiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VivaldiAppDelegate.m; sourceTree = "<group>"; };
+		2211D655148DB7F700057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2211D638148DB7F600057E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211D640148DB7F600057E6C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2211D630148DB7F600057E6C = {
+			isa = PBXGroup;
+			children = (
+				2211D645148DB7F600057E6C /* Vivaldi */,
+				2211D63E148DB7F600057E6C /* Frameworks */,
+				2211D63C148DB7F600057E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2211D63C148DB7F600057E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2211D63B148DB7F600057E6C /* Vivaldi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2211D63E148DB7F600057E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2211D63F148DB7F600057E6C /* Cocoa.framework */,
+				2211D641148DB7F600057E6C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2211D641148DB7F600057E6C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2211D642148DB7F600057E6C /* AppKit.framework */,
+				2211D643148DB7F600057E6C /* CoreData.framework */,
+				2211D644148DB7F600057E6C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2211D645148DB7F600057E6C /* Vivaldi */ = {
+			isa = PBXGroup;
+			children = (
+				2211D651148DB7F600057E6C /* VivaldiAppDelegate.h */,
+				2211D652148DB7F600057E6C /* VivaldiAppDelegate.m */,
+				2211D654148DB7F700057E6C /* MainMenu.xib */,
+				2211D646148DB7F600057E6C /* Supporting Files */,
+			);
+			path = Vivaldi;
+			sourceTree = "<group>";
+		};
+		2211D646148DB7F600057E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2211D647148DB7F600057E6C /* Vivaldi-Info.plist */,
+				2211D648148DB7F600057E6C /* InfoPlist.strings */,
+				2211D64B148DB7F600057E6C /* main.m */,
+				2211D64D148DB7F600057E6C /* Vivaldi-Prefix.pch */,
+				2211D64E148DB7F600057E6C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2211D63A148DB7F600057E6C /* Vivaldi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2211D659148DB7F700057E6C /* Build configuration list for PBXNativeTarget "Vivaldi" */;
+			buildPhases = (
+				2211D637148DB7F600057E6C /* Sources */,
+				2211D638148DB7F600057E6C /* Frameworks */,
+				2211D639148DB7F600057E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vivaldi;
+			productName = Vivaldi;
+			productReference = 2211D63B148DB7F600057E6C /* Vivaldi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2211D632148DB7F600057E6C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2211D635148DB7F600057E6C /* Build configuration list for PBXProject "Vivaldi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2211D630148DB7F600057E6C;
+			productRefGroup = 2211D63C148DB7F600057E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2211D63A148DB7F600057E6C /* Vivaldi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2211D639148DB7F600057E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211D64A148DB7F600057E6C /* InfoPlist.strings in Resources */,
+				2211D650148DB7F600057E6C /* Credits.rtf in Resources */,
+				2211D656148DB7F700057E6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2211D637148DB7F600057E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211D64C148DB7F600057E6C /* main.m in Sources */,
+				2211D653148DB7F600057E6C /* VivaldiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2211D648148DB7F600057E6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2211D649148DB7F600057E6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2211D64E148DB7F600057E6C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2211D64F148DB7F600057E6C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2211D654148DB7F700057E6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2211D655148DB7F700057E6C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2211D657148DB7F700057E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2211D658148DB7F700057E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2211D65A148DB7F700057E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vivaldi/Vivaldi-Prefix.pch";
+				INFOPLIST_FILE = "Vivaldi/Vivaldi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2211D65B148DB7F700057E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vivaldi/Vivaldi-Prefix.pch";
+				INFOPLIST_FILE = "Vivaldi/Vivaldi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2211D635148DB7F600057E6C /* Build configuration list for PBXProject "Vivaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2211D657148DB7F700057E6C /* Debug */,
+				2211D658148DB7F700057E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2211D659148DB7F700057E6C /* Build configuration list for PBXNativeTarget "Vivaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2211D65A148DB7F700057E6C /* Debug */,
+				2211D65B148DB7F700057E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2211D632148DB7F600057E6C /* Project object */;
+}
