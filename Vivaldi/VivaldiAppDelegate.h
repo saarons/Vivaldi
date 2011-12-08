@@ -7,11 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <IOKit/hidsystem/ev_keymap.h>
 
-@interface VivaldiAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
+@interface VivaldiAppDelegate : NSApplication
+{
 }
-
-@property (assign) IBOutlet NSWindow *window;
 
 @end

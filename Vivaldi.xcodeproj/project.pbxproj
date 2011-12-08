@@ -21,12 +21,12 @@
 		2211D642148DB7F600057E6C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2211D643148DB7F600057E6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2211D644148DB7F600057E6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2211D647148DB7F600057E6C /* Vivaldi-Info.plist */ = {isa = PBXFileReference; path = "Vivaldi-Info.plist"; sourceTree = "<group>"; };
+		2211D647148DB7F600057E6C /* Vivaldi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vivaldi-Info.plist"; sourceTree = "<group>"; };
 		2211D649148DB7F600057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2211D64B148DB7F600057E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2211D64D148DB7F600057E6C /* Vivaldi-Prefix.pch */ = {isa = PBXFileReference; path = "Vivaldi-Prefix.pch"; sourceTree = "<group>"; };
+		2211D64D148DB7F600057E6C /* Vivaldi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vivaldi-Prefix.pch"; sourceTree = "<group>"; };
 		2211D64F148DB7F600057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2211D651148DB7F600057E6C /* VivaldiAppDelegate.h */ = {isa = PBXFileReference; path = VivaldiAppDelegate.h; sourceTree = "<group>"; };
+		2211D651148DB7F600057E6C /* VivaldiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VivaldiAppDelegate.h; sourceTree = "<group>"; };
 		2211D652148DB7F600057E6C /* VivaldiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VivaldiAppDelegate.m; sourceTree = "<group>"; };
 		2211D655148DB7F700057E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
