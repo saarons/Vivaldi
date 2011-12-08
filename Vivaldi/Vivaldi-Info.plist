@@ -29,7 +29,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
+	<string>Copyright © 2011 Sam Aarons. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>VivaldiAppDelegate</string>
 	<key>LSBackgroundOnly</key>

@@ -3,7 +3,7 @@
 //  Vivaldi
 //
 //  Created by Sam Aarons on 12/5/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Sam Aarons. All rights reserved.
 //
 
 #import "VivaldiAppDelegate.h"
@@ -13,25 +13,21 @@
 - (void)mediaKeyEvent: (int)key state: (BOOL)state repeat: (BOOL)repeat
 {
     NSAppleScript *script = [NSAppleScript new];
-//    NSLog(@"Key: %d\tState: %d\tRepeat: %d", key, state, repeat);
 	switch( key )
 	{
 		case NX_KEYTYPE_PLAY:
 			if( state )
                 [script initWithSource: @"tell application \"System Events\" to key code 100"];
-//				NSLog(@"Play"); //Play pressed and released
             break;
             
 		case NX_KEYTYPE_FAST:
 			if( state )
                 [script initWithSource: @"tell application \"System Events\" to key code 101"];
-//				NSLog(@"Fast Forward"); //Next pressed and released
             break;
             
 		case NX_KEYTYPE_REWIND:
 			if( state )
                 [script initWithSource: @"tell application \"System Events\" to key code 98"];
-//				NSLog(@"Rewind"); //Previous pressed and released
             break;
 	}
     [script executeAndReturnError:nil];
